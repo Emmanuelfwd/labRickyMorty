@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #8d7979;
+  color: #fff;
+  text-align: center;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+}
+
+#estado {
+  margin: 20px 0;
+}
+
+#personajes{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+#personajes{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.tarjeta {
+  background: #974848;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 8px;
+}
