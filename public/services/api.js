@@ -9,10 +9,10 @@ export async function getPersonajes(status = 'all') {
             
             const data = await response.json();
             allCharacters = allCharacters.concat(data.results);
-            url = data.info.next; // Siguiente página
+            url = data.info.next; 
         }
 
-        // Filtrar personajes duplicados por id
+       
         const uniqueCharacters = allCharacters.filter((personaje, index, self) =>
             index === self.findIndex(p => p.id === personaje.id)
         );
